@@ -1,12 +1,12 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-const ytdl = require('ytdl-core');
 const mcounter = require("./events/mcounter");
 const fing = require("./events/rndSound");
 const wc = require("./events/wordChecks");
 const cs = require("./events/cmdSetup");
 const sal = require("./events/saveAndLoadList");
 
+var months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 const bot = new Discord.Client();
 const myTag = "<@!590906832764010499>";
 const loginToken = fs.readFileSync("filesToRead/logintoken.txt","utf8");
@@ -20,7 +20,8 @@ cs.cmdSetuper(bot,Discord,fs);
 
 bot.once("ready", () =>
 {
-    console.log(`bot ready - ${Date.now()}`);
+    var d = new Date();
+    console.log(`bot ready - ${d.getFullYear()}.${months[d.getMonth()]}.${d.getDate()} - ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}`);
     sal.loadList(fs,BadWordUserslist);
     bot.user.setActivity(`Tagok Száma: ${bot.guilds.get("325714661167333378").memberCount}`, {type: "PLAYING" }).catch(console.error);
     fing(bot,fs);
