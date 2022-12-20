@@ -6,6 +6,7 @@ module.exports =
         {
             if(fullmsg.includes(badWords[i]))
             {
+                console.log(`${msg.author.tag} ezt mondta: ${badWords[i]}`);
                 msg.channel.send( {files: ["./images/resend.jpeg"]} );
                 return true;
             }

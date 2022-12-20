@@ -3,6 +3,7 @@ module.exports =
     name: "lista",
     execute(msg,args,Discord,myTag,BadWordUserslist,bot)
     {
+        console.log(`listáz itt:"${msg.channel.name}"`);
         const line = "--------------------------------";
         var sortedList = BadWordUserslist.sort(this.sortFunction);
         var out = `Káromkodás StatTrak:tm:\n${line}\n`;
@@ -15,8 +16,7 @@ module.exports =
             {
                 c += "  ";
             }
-            out += ` | ${c} db  |  ${name}`;
-            out += "\n";
+            out += ` | ${c} db  |  ${name}\n`;
         }
         out += line;
         msg.channel.send(out);

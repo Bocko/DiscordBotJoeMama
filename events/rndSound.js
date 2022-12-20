@@ -1,42 +1,63 @@
-module.exports = async (bot,fs) =>
+module.exports = async (bot,fs,fing) =>
 {
-    const min = 1200000;
-    const max = 3000000;
-    var interval = Math.floor( Math.random() * max )+min;
-    setInterval(() =>
+    const min = 3600000;
+    //const min = 5000;
+    const max = 5400000;
+    //const max = 15000;
+    var interval = Math.floor( Math.random() * (max-min) )+min;
+    console.log(timeOfFing(interval));
+
+    var myfunction = function() 
     {
-        const g = bot.guilds.get("325714661167333378");
-        const listedChannels = [];
-
-        g.channels.forEach(channel => 
-        { 
-            if(channel.type == "voice" && channel.members.size > 0) listedChannels.push(channel);
-        });
-        if (listedChannels.length > 0) 
+        interval = Math.floor( Math.random() * (max-min) )+min;
+        console.log(timeOfFing(interval));
+        
+        if (fing.getFing()) 
         {
-            var rnd = Math.floor( Math.random() * (listedChannels.length) );
+            const g = bot.guilds.get("325714661167333378");
+            const listedChannels = [];
 
-            for (let i = 0; i < listedChannels.length; i++) 
+            g.channels.forEach(channel => 
+            { 
+                if(channel.type == "voice" && channel.members.size > 0) listedChannels.push(channel);
+            });
+
+            if (listedChannels.length > 0) 
             {
-                listedChannels[i].name;
-            }
+                var rnd = Math.floor( Math.random() * (listedChannels.length) );
 
-            console.log(listedChannels.name);
-
-            listedChannels[rnd].join()
-            .then(connection => 
+                listedChannels[rnd].join()
+                .then(connection => 
                 {
-                console.log('joined channel');
-
-                connection.playStream(fs.createReadStream('images/Fart.mp3'))
-                .on('end', () => {
-                    console.log('left channel');
-                    connection.channel.leave();
-                })
-                .catch(console.error);
-            })
-            .catch(console.error);
+                    console.log(`joined channel - ${listedChannels[rnd].name}`);
+                    try 
+                    {
+                        connection.playStream(fs.createReadStream('images/Fart.mp3'))
+                        .on('end', () => 
+                        {
+                            console.log('left channel');
+                            connection.channel.leave();                    
+                        });
+                    } catch (error) 
+                    {
+                        console.log(error)
+                    }
+                    
+                }).catch(console.error);
+            }
+            else
+            {
+                console.log("minden szova üres volt");
+            }
         }
+        setTimeout(myfunction, interval);
+    }
 
-    }, interval);
+    setTimeout(myfunction,interval);
+
+    function timeOfFing(interval)
+    {
+        var d = new Date()
+        return `Estimated time of fing: "${Math.floor( d.getHours() + (( d.getMinutes() + (interval/60000) ) / 60) )}:${(Math.floor( d.getMinutes()+(interval/60000))%60 )}" - interval ${Math.floor(interval/60000)} min`;
+    }
 }

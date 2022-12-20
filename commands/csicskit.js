@@ -1,8 +1,10 @@
 module.exports = 
 {
     name: "csicskít",
-    execute(msg,args,Discord,myTag)
+    execute(msg,args,Discord,myTag,BadWordUserslist,bot)
     {
+        console.log(`csicskít itt:"${msg.channel.name}"`)
+        console.log(args[0]);
         if(args[0] == myTag)
         {
             msg.reply("azt hiszed, hogy majd becsicskítom magam? pff..");
