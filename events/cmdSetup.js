@@ -2,6 +2,7 @@ module.exports =
 {
     cmdSetuper(bot,Discord,fs)
     {
+        console.log(`commandok setupja`);
         bot.commands = new Discord.Collection();
         const commandFiles = fs.readdirSync("./commands/").filter(file => file.endsWith(".js"));
         for(var f of commandFiles)

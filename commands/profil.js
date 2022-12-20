@@ -1,8 +1,9 @@
 module.exports = 
 {
     name: "profil",
-    execute(msg,args,Discord)
+    execute(msg,args,Discord,myTag,BadWordUserslist,bot)
     {
+        console.log(`profil itt:"${msg.channel.name}"`);
         var profil = new Discord.RichEmbed()
         .setTitle("User Informations\n──────────")
         .addField("Username:", msg.author.username)

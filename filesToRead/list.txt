@@ -1,7 +1,6 @@
 Aberált
 Abnormális
 Abortuszmaradék
-Abszolút hülye
 Ádáz
 Agresszív
 Ágrólszakadt
@@ -10,7 +9,6 @@ Agyalágyult
 Agyatlan
 Agybatetovált
 Ágybavizelős
-Agyfasz
 Agyhalott
 Agyonkúrt
 Agyonvert
@@ -19,7 +17,6 @@ AIDS-es
 Akaratos
 Akcentustalan
 Alaktalan
-Alapvetően fasz
 Alattomos
 Aljas
 Alkalmatlan
@@ -35,15 +32,12 @@ Anarchista
 Animalsex-mániás
 Anorexiás
 Antibarom
-Anyagi kár
 Anyad
 Anyád
-Anyámasszony katonája
 Anyaszomorító
 Anyatetű
 Apafej
 Ápolatlan
-Aprófaszú
 Aranyeres
 Arcátlan
 Arcbarakott
@@ -52,23 +46,19 @@ Arrogáns
 Arzénos
 Áskálódó
 Aszalék
-Aszaltfaszú
 Aszott
 Átbaszott
 Átejtett
 Átkozott
 Átverhető
-Azt a kurva, de fasz
 Bababöfi
 Balek
 Balfácán
-Balfasz
 Balfék
 Balfészek
 Balfiók
 Balga
 Baljós
-Baljós árny
 Balkáni
 Balkezes
 Bandzsa
@@ -77,9 +67,8 @@ Bárány
 Bárgyú
 Barom
 Baromfi
-Baromfifasz
 Basz
-Basz-o-matic
+Bassz
 Baszhatatlan
 Basznivaló
 Baszódjmeg
@@ -100,7 +89,6 @@ Bekómált
 Bekrepált
 Bél
 Bélböfi
-Beleiből kiforgatott
 Beles
 Bélféreg
 Bélpoklos
@@ -109,7 +97,6 @@ Béltartalom
 Béna
 Bennszülött
 Benyomott
-Beszari
 Beteg
 Beteges
 Beteges
@@ -121,7 +108,6 @@ Bitóravaló
 Böffentyű
 Böfögős
 Bogaras
-Bőgő masina
 Böhöm
 Boldogtalan
 Bölény
@@ -170,7 +156,6 @@ Bűzös
 Cafat
 Cafka
 Céda
-Cérnafaszú
 Cigány
 Ciki
 Cölöpfejű
@@ -188,14 +173,11 @@ Csapzott
 Csempész
 Csenevész
 Cseszett
-Csibefasz
 Csibész
 Csicska
 Csiganyál
 Csipás
-Csipszar
 Csíra
-Csirkefaszú
 Csirkefogó
 Csiszolatlan
 Csitri
@@ -210,7 +192,6 @@ Csökönyös
 Csőlakó
 Csöndesőrült
 Csöpögős
-Csöppszar
 Csórikám
 Csóró
 Csoroszja
@@ -235,13 +216,10 @@ Dadogós
 Daganatos
 Dagi
 Dajna
-De barom
 Debella
 Debil
 Dedós
-Deformáltfaszú
 Degenerált
-Dekorált pofájú
 Depressziós
 Dilibogyó
 Dilinyós
@@ -251,7 +229,6 @@ Diló
 Dinka
 Dinnye
 Disznó
-Döbbenetesen segg
 Dobseggű
 Dög
 Dögevő
@@ -266,7 +243,6 @@ Dühös
 Dundi
 Dünnyögő
 Dunyhavalagú
-Duplafaszú
 Durung
 Durva
 Dutyizott
@@ -276,11 +252,8 @@ Dzsipszi
 Dzsudva
 Dzsuva
 Ebadta
-Ebfasz
 Égettarcú
 Égő
-Egyszerű
-Egyszerűen fasz
 Együgyű
 Ehetetlen
 Elalélt
@@ -291,10 +264,8 @@ Elázott
 Elbaltázott
 Elbaszott
 Elégedettlen
-Eléggé állat
 Életképtelen
 Életveszélyes
-Eleve hülye
 Elfuserált
 Elhervadt
 Elhibázott
@@ -361,36 +332,14 @@ Falrahányt
 Falrakenhető
 Falusi
 Fancsali
-Fantasztikusan segg
 Fanyar
 Fapados
 Fapina
-Far
 Faragatlan
 Fárasztó
 Farok
 Fasszopó
 Fasz
-Fasz-emulátor
-Faszagyú
-Faszarc
-Faszfej
-Faszfészek
-Faszkalap
-Faszkarika
-Faszkedvelő
-Faszkópé
-Faszogány
-Faszpörgettyű
-Faszsapka
-Faszszagú
-Faszszopó
-Fasztalan
-Fasztarisznya
-Fasztengely
-Fasztolvaj
-Faszváladék
-Faszverő
 Fattyú
 Fecni
 Feka
@@ -413,7 +362,6 @@ Félrecsinált
 Félreérthető
 Félrefingott
 Félresikerült
-Félreszart
 Félribanc
 Fenék
 Fenevad
@@ -476,11 +424,6 @@ Gebe
 Geca
 Gecc
 Geci
-Gecinyelő
-Geciszaró
-Geciszívó
-Genetikai baleset
-Genetikai szerencsétlenség
 Gengszter
 Génhibás
 Genny
@@ -492,13 +435,11 @@ Gerinctelen
 Ghetto-s
 Giccses
 Giliszta
-Girbe-gurba
 Girhes
 Girnyó
 Gittes
 Gizda
 Gnóm
-Góc
 Gödény
 Gödhös
 Gólyafos
@@ -506,7 +447,6 @@ Golyós
 Gombás
 Gondterhes
 Gonosz
-Görbefaszú
 Görcs
 Görény
 Gorilla
@@ -518,19 +458,16 @@ Gügye
 Gülüszemű
 Gusztustalan
 Güzü
-Gy.P.-s
 Gyagyás
 Gyakorlatlan
 Gyalázatos
 Gyámoltalan
 Gyanús
 Gyanusított
-Gyári hibás
 Gyászkeret
 Gyászos
 Gyatra
 Gyenge
-Gyenge elméjű
 Gyengélkedő
 Gyennyszopó
 Gyepált
@@ -571,7 +508,6 @@ Haramia
 Harapós
 Hárpia
 Haszontalan
-Hatalmas nagy fasz
 Határozatlan
 Hatástalan
 Hátbabaszott
@@ -600,22 +536,16 @@ Hiábavaló
 Hibás
 Hibbant
 Hibridlény
-Hidegre tett
 Hidegvérű
 Hígagyú
-Hihetetlenül fasz
 Hikomat
 Hímivarsejt
 Hímnőstény
 Hímringyó
 Hiperstrici
-Hippi
 Hisztis
-Hitler-imádó
-Hitlerista
+Hitler
 Hitvány
-HIV pozitív
-Hivatásos balfasz
 Hobbiállat
 Hobbilény
 Hóbelebanc
@@ -632,7 +562,6 @@ Hörcsögpofa
 Horkolós
 Hormonkezelt
 Hormonzavaros
-Hú, de segg
 Hűbelebalázs
 Hugy
 Hugyagyú
@@ -650,12 +579,8 @@ Hülyegyerek
 Hűtlen
 Hüvely
 Hüvelygombás
-Hűvösre tett
-Ideálisan barom
 Idegbajos
 Idegbeteg
-Idegen
-Ideges
 Idétlen
 Idióta
 Idomíthatatlan
@@ -670,15 +595,6 @@ Incifinci
 Indián
 Indiszponált
 Injekciózott
-Inkubátor-szökevény
-Integrált barom
-Ionizált faszú
-Ipari baleset
-Ipari hulladék
-IQ bajnok
-IQ fighter
-IQ hiányos
-Irdatlanul köcsög
 Irgalmatlan
 Irigy
 Irracionális
@@ -689,20 +605,11 @@ Istentelen
 Istenverte
 Ivadék
 Ivartalanított
-Íveltfaszú
-Ivólé
-Izé
-Ízetlen kolbász
-Izzó
-Jajj, de barom
 Jajjveszékelő
 Járókeretes
 Javíthatatlan
-Javító intézetes
 Jelentéktelen
 Jellemtelen
-Jojós
-Jókora fasz
 Jótékonytalan
 Jött-ment
 Kába
@@ -730,25 +637,18 @@ Kecskebaszó
 Kegyetlen
 Kelekótya
 Kellemetlen
-Kellemetlen mellékhatás
-Kellően fasz
 Kényelmetlen
 Kényes
 Kényszeríthető
 Kényszerképzetes
 Kepesztős
-Képlékeny faszú
 Képtelen
-Keresve sem található fasz
 Kéretlen
 Kerge
 Keserves
-Kész
 Kétbalkezes
 Kétballábas
-Kétfaszú
 Kétséges
-Kétszer agyonbaszott
 Kétszínű
 Keverék
 Kevés
@@ -762,16 +662,11 @@ Kicsapongó
 Kicsinált
 Kidekorált
 Kielégíthetetlen
-Kiemelkedően barom
-Kifacsart
-Kifingott
 Kiherélt
 Kikakkantott
 Kikészült
 Kiköhöghetetlen
 Kiközösített
-Kimagaslóan fasz
-Kimondhatatlan pöcs
 Kínos
 Kínoznivaló
 Kipurcant
@@ -780,16 +675,13 @@ Kirakott
 Kirettyintett
 Kirívó
 Kiröhögnivaló
-Kis szaros
 Kisemmizett
-Kísérleti patkány
 Kisertézett
 Kisfütyi
 Kisgyerek
 Kiskóró
 Kissebbség
 Kiszaggatott
-Kitett szűrű
 Kitüremkedett
 Kleptomániás
 Klotyószagú
@@ -799,18 +691,15 @@ Kocsmatöltelék
 Köcsög
 Köcsögváza
 Köcsülék
-Kojak-faszú
 Kókadt
 Kókler
 Kómás
 Komisz
 Kommentálhatatlan
 Kommunista
-Komplett barom
 Konok
 Kontár
 Könyörtelen
-Kopárfaszú
 Kopasz
 Köpet
 Köpködős
@@ -822,9 +711,7 @@ Korcs
 Korhadt
 Korhatáros
 Korlátolt
-Korlátolt gecizésű
 Kóros
-Kóros elváltozás
 Korrigálhatatlan
 Koszfészek
 Koszos
@@ -832,8 +719,6 @@ Kotnyeles
 Kotonszökevény
 Kovászos
 Kövér
-Középszar
-Kozmikus szemét
 Közömbös
 Közönséges
 Krákogós
@@ -851,10 +736,8 @@ Kukkeros
 Kula
 Kultúrálatlan
 Kultúrboci
-Kunkorított faszú
 Kunyerálós
 Kupaknyelő
-Kupán vágott
 Kupleráj
 Kurafi
 Kurjantós
@@ -862,33 +745,15 @@ Kurogatott
 Kúrós
 Kurtafarkú
 Kurva
-Kurvaanyjú
-Kurvapecér
 Kutya
-Kutyakaki
-Kutyapina
-Kutyaszar
-Lajhár
-Langyos
 Lankadék
-Lankadtfaszú
 Lapostetű
 Látleletes
 Lator
 Latyak
 Latymatag
-Lé
 Leamortizált
 Leaszalt
-Lebaszirgált
-Lebaszott
-Lecseszett
-Leégett
-Leélt
-Léhűtő
-Leírhatatlanul segg
-Lejáratott
-Lejárt szavatosságú
 Lejmolós
 Lekvár
 Lelenc
@@ -905,9 +770,7 @@ Leprafészek
 Leprás
 Lepusztult
 Lerobbant
-Leszart
 Leszbikus
-Letargiába esett
 Leterhelt
 Levéltetű
 Liba
@@ -917,11 +780,9 @@ Lócitrom
 Lőcs
 Lőcsgéza
 Lódög
-Lófasz
 Lógócsöcsű
 Lóhugy
 Lökött
-Lom
 Lombikbébi
 Lomha
 Lomtár
@@ -930,17 +791,12 @@ Löttyedt
 Lotyó
 Lucskos
 Lugnya
-Luk
-Lüke
-Lusta
 Lüttyő
 Lütyő
 Lúzer
 Lyuk
 Lyukasbelű
-Lyukasfaszú
 Lyukaskezű
-Lyukát vakaró
 Lyuktalanított
 Macerás
 Macskajancsi
@@ -957,9 +813,7 @@ Mániás
 Manipulált
 Mankós
 Marha
-Más vallású
 Maszlag
-Maszturbációs görcs
 Maszturbagép
 Maszturbáltatott
 Matatós
@@ -1001,26 +855,18 @@ Melléktermék
 Mellérakott
 Mellrákos
 Menetszakadásos
-Mentálisan sérült
 Menthetetlen
 Méreg
 Mérgezett
-Mérgező hulladék
-Mérhetetlenül ostoba
-Mérsékelt képességű
-Mesterséges faszú
 Metélt
-Méteres kékeres
 Migrénes
 Mihaszna
 Mikrotökű
-Mit tudom én mi
 Mitugrász
 Mócsing
 Mocsok
 Moderálatlan
 Modortalan
-Mohácsi vész
 Mohó
 Mojfing
 Mólés
@@ -1032,22 +878,16 @@ Mostoha
 Motyogós
 Műbeles
 Mucsai
-Műfaszú
 Muff
 Muflon
-Multifasz
 Műmellű
 Munkamániás
 Munkanélküli
 Mutáns
-Műtéti seb
-Mutogatós
-Mutogatós-bácsi
 Műtöttpofájú
 Náci
 Nagyarcú
 Nagyképű
-Nagyon barom
 Nagyothalló
 Nagyotmondó
 Nagypofájú
@@ -1058,17 +898,8 @@ Narkós
 Náspángolt
 Negró
 Négyszemű
-Nehéz eset
 Nekrofil
 Nélkülözhető
-Nem 100-as
-Nem az igazi
-Nem beszámítható
-Nem jó
-Nem komplett
-Nem normális
-Nem várt hiba
-Nemesített barom
 Neurózisos
 Neveletlen
 Nevelőintézetes
@@ -1084,7 +915,6 @@ Nonszensz
 Normálatlan
 Növény
 Nudista
-Nukleáris atomkatasztrófa
 Nulla
 Nuna
 Nunci
@@ -1092,8 +922,6 @@ Nuncóka
 Nyakatekert
 Nyakoncsípett
 Nyakonöntött
-Nyál
-Nyalábfasz
 Nyáladdzó
 Nyalakodó
 Nyálas
@@ -1121,9 +949,7 @@ Nyomoronc
 Nyomorult
 Nyomott
 Nyugtatózott
-Nyúl
 Nyúlbéla
-Nyúlszar
 Nyüsszögős
 Nyuszi
 Nyuvasztott
@@ -1141,7 +967,6 @@ Okádék
 Okoskodó
 Oktondi
 Ölelhetetlen
-Oltári nagy fasz
 Öncsonkító
 Ondó
 Ondónyelő
@@ -1151,30 +976,23 @@ Ondónyelő
 Önző
 Opott
 Optikás
-Orbitálisan hülye
 Ordenálé
 ördög
 Ördögi
 Ormótlan
 Örökvesztes
 Oroszlánszagú
-Orrát mindenbe beleverő
 Orrbadekorált
 Orrbapúzott
 Orrbatérdelt
 Ortopéd
 Őrült
-Orvosi eset
-Orvosi műhiba
 Ósdi
 Őspofájú
 Összeaszott
 Összebaszott
 Összetöpörödött
-Összetört képű
 Ostoba
-Ösztönösen barom
-Ötcsillagos fasz
 Ötlettelen
 Otromba
 Óvodás
@@ -1185,14 +1003,12 @@ Palimadár
 Pampogó
 Panaszkodó
 Pancser
-Paprika Jancsi
 Papucs
 Paranormális
 Paraszt
 Parazita
 Parázós
 Paréj
-Parkinzon-kóros
 Parókás
 Patkány
 Peches
@@ -1202,8 +1018,6 @@ Pejoratív
 Pelyhes
 Penészes
 Pénisz
-Péppé zúzott
-Peremesfaszú
 Perszóna
 Perverz
 Pete
@@ -1267,12 +1081,8 @@ Protkós
 Protty
 Prűd
 Prütykölős
-Pszichiátriai kezelésre szoruló
-Pszichológiai eset
 Pszichopata
-Pú
 Pucolatlan
-Pucolt nyúl
 Pucsító
 Púder
 Puding
@@ -1281,7 +1091,6 @@ Pudvás
 Pudváslikú
 Puffadt
 Pufi
-Puhafaszú
 Puhány
 Puki
 Pukkadt
@@ -1299,10 +1108,7 @@ Putri
 Qkacos
 Qki
 Qrva
-Qtyaszar
-Rágcsáltfaszú
 Ragyás
-Rákkeltő hatású
 Rakoncátlan
 Rákos
 Rakott
@@ -1318,7 +1124,6 @@ Rémes
 Rémisztő
 Rendellenes
 Rendetlen
-Rendkívül fasz
 Rendszertelen
 Renyhe
 Répa-retek
@@ -1347,15 +1152,10 @@ Rinyálós
 Ripacs
 Ritkabarom
 Rivalizáló
-Rőfös fasz
 Rohadék
 Rohadt
 Röhögnivaló
 Rojtospicsájú
-Róka
-Rókázás
-Rokkant
-Rom
 Roma
 Román
 Rombadöntött
@@ -1365,18 +1165,11 @@ Ronda
 Rongyos
 Rongyospinájú
 Rongyrázó
-Roppant hülye
 Rosa
 Roskadt
 Rosseb
-Rossz
-Rossz élmény
-Rossz kurva
-Rossz ötlet
 Rosszakaró
 Rosszindulatú
-Rosszindulatú daganat
-Rosszul eső
 Rosszullét
 Rotty
 Rozoga
@@ -1389,11 +1182,8 @@ Rusnya
 Ruszki
 Rüszök
 Rüszü
-Rút
-Saját nemével kefélő
 Sakáll
 Sanda
-Sanyargatott sorsú
 Sanyarú
 Sápadtarcú
 Sáros
@@ -1409,7 +1199,6 @@ Seggnyaló
 Seggszőr
 Seggtorlasz
 Selejt
-Semmi
 Semmibevett
 Semmirekellő
 Senki
@@ -1467,27 +1256,10 @@ Sutyerák
 Szadista
 Szagos
 Szajha
-Szálkafaszú
 Szalmonellás
 Szamár
 Szánalmas
 Szar
-Szaralak
-Szárazfing
-Szarbojler
-Szarcsimbók
-Szarevő
-Szarfaszú
-Szarházi
-Szarjankó
-Szarnivaló
-Szarosvalagú
-Szarrá vágott
-Szarrágó
-Szarszagú
-Szarszájú
-Szartragacs
-Szarzsák
 Szatír
 Szédült
 Szegény
@@ -1498,8 +1270,6 @@ Széklet
 Székrekedéses
 Szélcsapó
 Szeleburdi
-Szellemi törpe
-Szellemileg visszamaradott
 Szellentős
 Szélütéses
 Szemérmetlen
@@ -1523,31 +1293,22 @@ Szifiliszes
 Szipirtyó
 Szittyós
 Szívás
-Szivattyús kurva
 Szívbajos
 Szivózós
 Szívritmuszavaros
 Szívtipró
 Szmötyis
 Szófosó
-Szokatlanul fasz
 Szoknyapecér
 Szökött
 Szomorú
 Szop
-Szop-o-matic
-Szopógép
-Szopógörcs
-Szopós
-Szopós kurva
-Szopottfarkú
 Szórakozott
 Szörnyű
 Szószátyár
 Sztálinista
 Szuka
 Szűklyukú
-Szúnyogfaszni
 Szuperbuzi
 Szuperkurva
 Szutyok
@@ -1581,14 +1342,12 @@ Tépett
 Terembura
 Teringette
 Természetellenes
-Természetre káros
 Tesze-tosza
 Tétova
 Tetű
 Tetves
 Tikfos
 Tikkadt
-Tikszar
 Tinó
 Tintás
 Tipli
@@ -1596,13 +1355,6 @@ Tirpák
 Toalettpapír
 Tohonya
 Tök
-Tök hülye
-Tökéletlen
-Töketlen
-Tökfej
-Tökfilkó
-Tökkelütött
-Tökmag
 Tolerálatlan
 Tolószékes
 Tolvaj
@@ -1614,13 +1366,10 @@ Toprongy
 Toprongyos
 Töpszli
 Torkos
-Törpefaszú
 Torz
 Torzszülött
 Toszatlan
 Toszott
-Totál kész
-Totálisan hülye
 Totojázó
 Trágár
 Trágya
@@ -1628,7 +1377,6 @@ Traktoros
 Trampli
 Transzvesztita
 Tranzszexuális
-Tré
 Tróger
 Trombózisos
 Tropa
@@ -1657,16 +1405,12 @@ Tuskó
 Tutajos
 Tutujgatott
 Tutyi-mutyi
-Tyű, de picsa
 Tyúkeszű
-Tyúkfasznyi
-Tyúkszar
 Tyúktöke
 Überokos
 Udvariatlan
 Ügyefogya
 Ügyetlen
-Üldözési mániás
 Üledék
 Ultrabarom
 Unalmas
@@ -1687,20 +1431,16 @@ Utálék
 Utálnivaló
 Utánozhatatlan
 Utcagyerek
-Utcára tett
 Ütnivaló
 Ütődött
 Üvegszemű
 Vacak
-Vad
 Vadállat
-Vadfasz
 Vádlott
 Vagina
 Vágottarcú
 Vájkálódó
 Vájúszájú
-Vak
 Vakarcs
 Vakarék
 Váladék
@@ -1719,10 +1459,7 @@ Vazzeg
 Végbél
 Végbélféreg
 Végbélnyílás
-Véletlen baleset
 Vemhes
-Vén
-Vén trotty
 Vérbajos
 Verébfing
 Verejtékes
@@ -1731,7 +1468,6 @@ Vérrákos
 Vérszívó
 Vérszomjas
 Veszélyes
-Veszélyes hulladék
 Vetélt
 Vézna
 Viagra-zabáló
@@ -1745,7 +1481,6 @@ Virágporos
 Visítozó
 Visszaöklendezett
 Visszautasított
-Vitathatatlanul fasz
 Vitázó
 Vizelet
 Vizesagyú
@@ -1754,10 +1489,6 @@ Viziló
 Vöcsök
 Vödörfej
 Vulgáris
-WC-ben lehúzandó
-WC-pumpa fejű
-WC-szagú
-Xar
 Zacskófej
 Zagyva
 Zajos
@@ -1765,7 +1496,6 @@ Zakkant
 Zaklatott
 Zanzásított
 Záptojás
-Zátonyra futott
 Zavarodott
 Zavaros
 Zellerszagú
@@ -1798,6 +1528,5 @@ Zsizsites
 Zsömlefej
 Zsúfoltpofájú
 Zsugori
-Zsugorított faszú
 Züllött
 Zűrös
