@@ -1,5 +1,5 @@
-const Discord = require("discord.js");
-const { Client, Events, GatewayIntentBits } = require("discord.js");
+const { Client, Events, GatewayIntentBits, Routes } = require('discord.js');
+const { REST } =  require('@discordjs/rest');
 const fs = require("fs");
 const fing = require("./events/rndSound");
 const wc = require("./events/wordChecks");
@@ -7,13 +7,16 @@ const cs = require("./events/cmdSetup");
 const sal = require("./events/saveAndLoadList");
 const fingStatus = require("./events/fingSet");
 
+const loginToken = fs.readFileSync("filesToRead/logintoken.txt","utf8");
 const bot = new Client({intents: [
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent,
     GatewayIntentBits.GuildVoiceStates
     ]});
-const loginToken = fs.readFileSync("filesToRead/logintoken.txt","utf8");
+
+const rest = new REST({ version: 10}).setToken(loginToken);
+
 const badWords = fs.readFileSync("filesToRead/list.txt","utf8").toLowerCase().split("\r\n");
 const prefix = "!";
 
@@ -25,11 +28,11 @@ cs.cmdSetuper(bot);
 
 bot.once(Events.ClientReady, c =>
 {
-    console.log(`Ready! Logged in as ${c.user.tag} - ${d.getFullYear()}.${(d.getMonth()+1)}.${d.getDate()} - ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}`);
+    console.log(`Logged in as ${c.user.tag} - ${d.getFullYear()}.${(d.getMonth()+1)}.${d.getDate()} - ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}`);
     sal.loadList(fs,BadWordUserslist);
     bot.user.setPresence({ activities: [{ name: 'Your Mother | !parancsok'}], status: 'online' });
     fing(bot,fs,fingStatus);
-    console.log("ready");
+    console.log("Ready!");
 });
 
 bot.on(Events.MessageCreate, msg =>
@@ -77,6 +80,15 @@ bot.on(Events.MessageUpdate, (oldMessage, newMessage) =>
     }
 });
 
+bot.on(Events.InteractionCreate, async interaction => {
+	if (!interaction.isChatInputCommand()) return;
+	if(interaction.commandName == "ping")
+    {
+        await interaction.reply("pong!?");
+    }
+});
+
+registerSlashCommand();
 bot.login(loginToken);
 
 function filterCheck(cmd)
@@ -102,4 +114,18 @@ function fingCheck(cmd)
         return true;
     }
     return false;
+}
+
+async function registerSlashCommand()
+{
+    const commands = [
+        {
+            name: "ping",
+            description: "replies with pong i guess"
+        }
+    ];
+    await rest.put(Routes.applicationGuildCommands("590906832764010499", "325714661167333378"), 
+    { 
+        body: commands 
+    });
 }
