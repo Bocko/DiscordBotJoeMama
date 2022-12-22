@@ -1,3 +1,5 @@
+const { ChannelType } = require("discord.js");
+
 module.exports = async (bot,fs,fing) =>
 {
     const min = 3600000;
@@ -7,27 +9,28 @@ module.exports = async (bot,fs,fing) =>
     var interval = Math.floor( Math.random() * (max-min) )+min;
     console.log(timeOfFing(interval));
 
-    var myfunction = function() 
+    var fingLoop = function()
     {
         interval = Math.floor( Math.random() * (max-min) )+min;
         console.log(timeOfFing(interval));
         
         if (fing.getFing()) 
         {
-            const g = bot.guilds.get("325714661167333378");
+            const guild = bot.guilds.cache.get("325714661167333378");
             const listedChannels = [];
 
-            g.channels.forEach(channel => 
-            { 
-                if(channel.type == "voice" && channel.members.size > 0) listedChannels.push(channel);
+            guild.channels.cache.forEach(channel =>
+            {
+                //https://discord.com/developers/docs/resources/channel#channel-object-channel-types
+                if(channel.type == ChannelType.GuildVoice && channel.members.size > 0) listedChannels.push(channel);
             });
 
-            if (listedChannels.length > 0) 
+            if (listedChannels.length > 0)
             {
                 var rnd = Math.floor( Math.random() * (listedChannels.length) );
 
                 listedChannels[rnd].join()
-                .then(connection => 
+                .then(connection =>
                 {
                     console.log(`joined channel - ${listedChannels[rnd].name}`);
                     try 
@@ -38,7 +41,8 @@ module.exports = async (bot,fs,fing) =>
                             console.log('left channel');
                             connection.channel.leave();                    
                         });
-                    } catch (error) 
+                    }
+                    catch (error)
                     {
                         console.log(error)
                     }
@@ -47,13 +51,13 @@ module.exports = async (bot,fs,fing) =>
             }
             else
             {
-                console.log("minden szova üres volt");
+                console.log("minden szoba üres volt");
             }
         }
-        setTimeout(myfunction, interval);
+        setTimeout(fingLoop, interval);
     }
 
-    setTimeout(myfunction,interval);
+    setTimeout(fingLoop,interval);
 
     function timeOfFing(interval)
     {

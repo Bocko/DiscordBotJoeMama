@@ -1,7 +1,7 @@
 module.exports = 
 {
     name: "lista",
-    execute(msg,args,Discord,myTag,BadWordUserslist,bot)
+    execute(msg, args, BadWordUserslist, bot)
     {
         console.log(`listáz itt:"${msg.channel.name}"`);
         const line = "--------------------------------";
@@ -9,7 +9,8 @@ module.exports =
         var out = `Káromkodás StatTrak:tm:\n${line}\n`;
         for (var i = 0; i < sortedList.length; i++) 
         {
-            var name = bot.users.get(sortedList[i][0]).tag;
+            var id = sortedList[i][0];
+            var name = bot.users.cache.get(id).username;
             var c = sortedList[i][1].toString();
             var cNum = 3-c.length;
             for (let i = 0; i < cNum; i++) 

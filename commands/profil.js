@@ -1,18 +1,21 @@
+const { EmbedBuilder } = require('discord.js');
+
 module.exports = 
 {
     name: "profil",
-    execute(msg,args,Discord,myTag,BadWordUserslist,bot)
+    execute(msg, args, BadWordUserslist, bot)
     {
         console.log(`profil itt:"${msg.channel.name}"`);
-        var profil = new Discord.RichEmbed()
+        var profil = new EmbedBuilder()
         .setTitle("User Informations\n──────────")
-        .addField("Username:", msg.author.username)
-        .addField("User Tag:", msg.author.tag)
-        .addField("User ID:", msg.author.id)
-        .setThumbnail(msg.author.avatarURL)
-        .addBlankField()
-        .setFooter("GL HF")
+        .addFields(
+            { name: "Username:", value: msg.author.username},
+            { name: "User Tag:", value: msg.author.tag},
+            { name: "User ID:", value: msg.author.id})
+        .addFields({ name: '\u200B', value: '\u200B' })
+        .setFooter({text:"GL HF"})
         .setColor("#FF0000");
-        msg.channel.send(profil);
+
+        msg.channel.send({embeds: [profil]});
     }
 }

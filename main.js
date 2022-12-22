@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const { Client, Events, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
 const fing = require("./events/rndSound");
 const wc = require("./events/wordChecks");
@@ -6,8 +7,12 @@ const cs = require("./events/cmdSetup");
 const sal = require("./events/saveAndLoadList");
 const fingStatus = require("./events/fingSet");
 
-const bot = new Discord.Client();
-const myTag = "<@!590906832764010499>";
+const bot = new Client({intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+    GatewayIntentBits.GuildVoiceStates
+    ]});
 const loginToken = fs.readFileSync("filesToRead/logintoken.txt","utf8");
 const badWords = fs.readFileSync("filesToRead/list.txt","utf8").toLowerCase().split("\r\n");
 const prefix = "!";
@@ -16,19 +21,18 @@ var filter = true;
 var BadWordUserslist = [];
 var d = new Date();
 
-cs.cmdSetuper(bot,Discord,fs,d);
+cs.cmdSetuper(bot);
 
-bot.once("ready", () =>
+bot.once(Events.ClientReady, c =>
 {
-    console.log(`bot ready - ${d.getFullYear()}.${(d.getMonth()+1)}.${d.getDate()} - ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}`);
+    console.log(`Ready! Logged in as ${c.user.tag} - ${d.getFullYear()}.${(d.getMonth()+1)}.${d.getDate()} - ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}.${d.getMilliseconds()}`);
     sal.loadList(fs,BadWordUserslist);
-    bot.user.setActivity("Anyáddal | !parancsok", {type: "PLAYING" }).catch(console.error);
+    bot.user.setPresence({ activities: [{ name: 'Your Mother | !parancsok'}], status: 'online' });
     fing(bot,fs,fingStatus);
-    console.log("userek fetchelése")
-    bot.guilds.get("325714661167333378").fetchMembers();
+    console.log("ready");
 });
 
-bot.on("message", msg=>
+bot.on(Events.MessageCreate, msg =>
 {
     if(msg.author.bot) return;
 
@@ -53,7 +57,7 @@ bot.on("message", msg=>
 
     try 
     {
-        bot.commands.get(cmd).execute(msg,args,Discord,myTag,BadWordUserslist,bot,fingStatus.getFing(),filter);
+        bot.commands.get(cmd).execute(msg, args, BadWordUserslist, bot, fingStatus.getFing(), filter);
     }
     catch (error) 
     {
@@ -62,14 +66,14 @@ bot.on("message", msg=>
     }
 });
 
-bot.on('messageUpdate', (oldMessage, newMessage) => 
+bot.on(Events.MessageUpdate, (oldMessage, newMessage) =>
 {
     if(newMessage.author.bot)return;
     if(newMessage.content != oldMessage.content)
     {
         var out = `${oldMessage.author.tag} editelt: “${oldMessage.content}”  -->  “${newMessage.content}”, csicska`;
         newMessage.channel.send(out);
-        newMessage.react(bot.emojis.get("652191105923940352"));
+        newMessage.react(bot.emojis.cache.get("652191105923940352"));
     }
 });
 

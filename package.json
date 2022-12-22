@@ -9,10 +9,10 @@
   "author": "Bocko",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.4",
+    "discord.js": "^14.7.1",
     "ffmpeg": "0.0.4",
-    "ffmpeg-static": "^4.2.7",
+    "ffmpeg-static": "^5.1.0",
     "node-opus": "^0.3.3",
-    "ytdl-core": "^4.3.1"
+    "ytdl-core": "^4.11.2"
   }
 }

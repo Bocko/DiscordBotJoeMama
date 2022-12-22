@@ -1,6 +1,9 @@
+const Discord = require("discord.js");
+const fs = require("fs");
+
 module.exports = 
 {
-    cmdSetuper(bot,Discord,fs)
+    cmdSetuper(bot)
     {
         console.log(`commandok setupja`);
         bot.commands = new Discord.Collection();
